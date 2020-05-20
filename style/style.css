@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #539EDF;
+    padding: 20px 25px;
+    text-align: center;
+    max-width: 650px;
+    margin: auto;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#Input {
+    margin: 0;
+    width: 80%;
+    padding: 5px;
+    float: left;
+    font-size: 14px;
+    margin: 0;
+    color: #12263a;
+    border: none;
+}
+
+h2 {
+    margin: 10px;
+    color: #12263a;
+}
+
+.add {
+    padding: 5px;
+    width: 20%;
+    color: white;
+    float: left;
+    font-size: 14px;
+    background-color: #12263a;
+    cursor: pointer;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    max-width: 650px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 200px 130px 50px 130px;
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    overflow-y: auto;
+}
+
+ul li {
+    height: 25px;
+    margin-bottom: 5px;
+    clear: both;
+}
+
+.check {
+    background-image: url("../images/check.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.uncheck {
+    background-image: url("../images/uncheck.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.iconcheck {
+    float: left;
+    height: 20px;
+    width: 20px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.iconremove {
+    float: right;
+    height: 16px;
+    width: 16px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.item {
+    float: left;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: bold;
+    margin: 0px 5px 0px 5px;
+    line-height: 25px;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.incomplete {
+    text-decoration: none;
+    color: #12263a;
+}
+
+.remove {
+    background-image: url("../images/delete.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.end-page {
+    max-width: 650px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.end-page span {
+    color: #12263a;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.end-page button {
+    color: #12263a;
+    border: none;
+    margin-left: 30px;
+    padding: 2px;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.end-page button:hover {
+    background-color: #12263a;
+    color: aliceblue;
+}

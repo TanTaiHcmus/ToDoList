@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ToDoList</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../style/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="header">
+        <h2>To Do List</h2>
+        <input type="text" placeholder="Add a new activity" id="Input">
+        <div onclick="processAddToList()" class="add">Add to list</div>
+    </div>
+    <ul id="listActivity">
+    </ul>
+    <div class="end-page">
+        <span>Wish you complete the activity!</span>
+        <button type="button" onclick="save()">Save</button>
+        <button type="button" onclick="reset()">Reset</button>
+    </div>
+    <script src="../javascript/todolist.js"></script>
+</body>
+
+</html>
